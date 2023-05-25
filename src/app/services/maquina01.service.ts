@@ -19,7 +19,7 @@ export class Maquina01Service {
     return this.http.get<Maquina01[]>(this.url+'/'+'Administradores');
   }
 //------------------------------------------------------------------------------
-  public buscarUsuario(busqueda: string) {
+  public buscarMaquina01(busqueda: string) {
     return this.http.get(`${this.url}/buscar?nombre=${busqueda}`);
   }
 

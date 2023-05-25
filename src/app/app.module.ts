@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
-import { AdministradorComponent } from './components/administrador/administrador.component';
-import { Maquina01Component } from './components/maquina01/maquina01.component';
+import { AdministradorComponent } from './components/components/administrador/administrador.component';
+import { Maquina01Component } from './components/components/maquina01/maquina01.component';
 
 @NgModule({
   declarations: [
